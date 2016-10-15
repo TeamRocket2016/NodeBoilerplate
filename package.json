@@ -10,7 +10,7 @@
   "author": "William Rory Kronmiller <wrk961@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "nodemon api/index.js --exec babel-node",
+    "start": "nodemon api/yourCodeHere.js --exec babel-node",
     "lint": "eslint *.js"
   },
   "devDependencies": {

@@ -1,11 +1,13 @@
 # BartenderNode
-NodeJS Server
+NodeJS Server Boilerplate for developing components to be integrated to ExpressJS server later.
 
-# ExpressJS
+It is advisable to try to develop new features directly on the BartenderNode repository (not the boilerplate repo),
+but if you are unfamiliar with ExpressJS/Unit Tests then you can edit code here.
 
-ExpressJS is a micro-framework for service HTTP requests using
-NodeJS. You can find more information about best practices
-[here](https://expressjs.com/en/advanced/best-practice-performance.html).
+# How to Use
+Simply edit `api/yourCodeHere.js`. All logic that will be merged into the BartenderNode repo later should
+be placed in separate files such as `api/textToSpeech.js` and imported to `yourCodeHere.js`. This will
+help ensure integration will go more smoothly.
 
 # Code
 
